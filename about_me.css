@@ -1,0 +1,142 @@
+/* 🌷 Global Reset & Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #fdfbff;
+  color: #333;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* 🌈 Header */
+header {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  background: linear-gradient(135deg, #a8c0ff, #fbc2eb);
+  color: #fff;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.7rem;
+  letter-spacing: 1px;
+}
+
+header .tagline {
+  font-style: italic;
+  margin: 0.6rem 0 1.5rem;
+  color: #fefefe;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* 🌷 Sections */
+section {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: auto;
+  animation: fadeUp 0.8s ease-in-out;
+}
+
+h2 {
+  color: #7c5acb;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+/* 💻 Project Cards */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 260px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  background: linear-gradient(135deg, #a8c0ff, #fbc2eb);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.project-card a:hover {
+  opacity: 0.85;
+}
+
+/* 💌 Contact */
+#contact ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#contact li {
+  margin: 8px 0;
+}
+
+#contact a {
+  color: #7c5acb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* 🪶 Footer */
+footer {
+  text-align: center;
+  padding: 1.2rem;
+  background: linear-gradient(135deg, #fbc2eb, #a8c0ff);
+  color: white;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+/* ✨ Animations */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
